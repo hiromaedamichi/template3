@@ -71,17 +71,18 @@
     <div id="pr">
     </div>
   </div>
-  <div id="top">
+  <div id="main">
     <div id="top">
       <p>BuyItemConfirm</p>
-     <div>
+     </div>
      <div>
        <s:form>
          <tr>
            <td>商品名</td>
-           <td><s:proprety value="session.buyItem_name" /></td>
+           <td><s:property value="session.buyItem_name" /></td>
          </tr>
          <tr>
+         <td>値段</td>
            <td><s:property value="session.total_price" /><span>円</span></td>
          </tr>
 
@@ -96,9 +97,16 @@
          </tr>
 
           <tr>
-            <td><input type="button" value="戻る"onclik="submitAction('HomeAction')"/></td>
+            <td>
+              <br>
+            </td>
+           </tr>
+            <tr>
+            <td><input type="button" value="戻る" onclick="submitAction('HomeAction')"/></td>
+            <td><input type="button" value="完了" onclick="submitAction('BuyItemConfirmAction')" /></td>
           </tr>
         </s:form>
+       </div>
        </div>
 
        <div id="footer">

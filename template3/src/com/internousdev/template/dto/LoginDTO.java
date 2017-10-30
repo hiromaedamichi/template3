@@ -18,7 +18,7 @@ public class LoginDTO {
     public String getLoginPassword(){
     	return loginPassword;
     }
-    public void setloginPassword(String loginPassword){
+    public void setLoginPassword(String loginPassword){
     	this.loginPassword=loginPassword;
     }
 

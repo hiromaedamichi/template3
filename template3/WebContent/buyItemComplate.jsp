@@ -12,7 +12,8 @@
 	<meta http-equiv="imagetoolbar" content="no" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
-	<title>Home画面</title>
+	<meta charset="utf-8">
+	<title>BuyItemComplate画面</title>
 	<style type="text/css">
 		body {
 		   margin:0;
@@ -66,15 +67,15 @@
     <div id="top">
       <p>Buy Item Complate</p>
      </div>
-     <div>購入手続きが完了致しました。</div>
+     <div>
+     <p>購入手続きが完了致しました。</p>
       <div>
-        <a href='<s:url action="MyPageAction" />'>マイページ</a><span>からの購入履歴の確認が可能です。</span>
-        <p>Homeへ戻る場合は<a href='<s:url action=GoHomeAction" />'>こちら</a></p>
+        <a href='<s:url action="MyPageAction" />'>マイページ</a><span>から購入履歴の確認が可能です。</span>
+        <p>Homeへ戻る場合は<a href='<s:url action="GoHomeAction" />'>こちら</a></p>
       </div>
      </div>
-   </div>
-
-   <div id="footer">
+     </div>
+     <div id="footer">
      <div id="pr">
      </div>
    </div>
